@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="345fe9c987a615105e74da873cbb356f" label="employee" max_length="40" name="x_snc_ughelloworld_employee" type="collection"/>
+</database>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ugtest</internal_name>
+        <label_cache>[{"name":"f45273b2-59f7-454f-a332-a4c95fa8928e.progress_id","label":"1 - Import Application with Repo URL➛Progress Id","reference_display":"Progress Id","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"5de9ba0b-7710-4cf1-8c84-5c4068e048d6"}},{"name":"f45273b2-59f7-454f-a332-a4c95fa8928e.status_detail","label":"1 - Import Application with Repo URL➛Status Detail","reference_display":"Status Detail","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"f2106f05-8f15-4214-8df9-32e02983aba7"}},{"name":"f45273b2-59f7-454f-a332-a4c95fa8928e.status_message","label":"1 - Import Application with Repo URL➛Status Message","reference_display":"Status Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"d55b9887-14f6-46e8-815b-28b9d8edb98f"}},{"name":"f45273b2-59f7-454f-a332-a4c95fa8928e.http_status","label":"1 - Import Application with Repo URL➛HTTP Status","reference_display":"HTTP Status","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"5083dc87-d1da-4962-863f-0b7b154cddc8"}},{"name":"f45273b2-59f7-454f-a332-a4c95fa8928e.status_label","label":"1 - Import Application with Repo URL➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"ed8d4ae9-9299-4703-8951-363e2a6e623b"}},{"name":"f45273b2-59f7-454f-a332-a4c95fa8928e.progress_url","label":"1 - Import Application with Repo URL➛Progress URL","reference_display":"Progress URL","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"410dee7b-727b-47a1-a947-e932e698d67d"}},{"name":"f45273b2-59f7-454f-a332-a4c95fa8928e.error","label":"1 - Import Application with Repo URL➛Error","reference_display":"Error","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"1d8a090e-5d86-4887-8e76-2c75d63e85eb"}},{"name":"f45273b2-59f7-454f-a332-a4c95fa8928e.status","label":"1 - Import Application with Repo URL➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"6e261eea-ea44-49d6-ad23-544fc04c532c"}},{"name":"f45273b2-59f7-454f-a332-a4c95fa8928e.__dont_treat_as_error__","label":"1 - Import Application with Repo URL➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"794b6a83-60ac-47a4-a52b-ce20619e5bbb"}},{"name":"f45273b2-59f7-454f-a332-a4c95fa8928e.__action_status__","label":"1 - Import Application with Repo URL➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD6e7a002e625130108e3849bb16aad167","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"70a852c5-4a6f-4d8e-b504-cf09ae29156c"}},{"name":"95c3182e-e163-4900-9890-d7c13403b7dc.__action_status__","label":"1 - Import Application with Repo URL➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD6e7a002e625130108e3849bb16aad167","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"70a852c5-4a6f-4d8e-b504-cf09ae29156c"}},{"name":"95c3182e-e163-4900-9890-d7c13403b7dc.__dont_treat_as_error__","label":"1 - Import Application with Repo URL➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"794b6a83-60ac-47a4-a52b-ce20619e5bbb"}},{"name":"95c3182e-e163-4900-9890-d7c13403b7dc.status","label":"1 - Import Application with Repo URL➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"6e261eea-ea44-49d6-ad23-544fc04c532c"}},{"name":"95c3182e-e163-4900-9890-d7c13403b7dc.error","label":"1 - Import Application with Repo URL➛Error","reference_display":"Error","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"1d8a090e-5d86-4887-8e76-2c75d63e85eb"}},{"name":"95c3182e-e163-4900-9890-d7c13403b7dc.progress_url","label":"1 - Import Application with Repo URL➛Progress URL","reference_display":"Progress URL","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"410dee7b-727b-47a1-a947-e932e698d67d"}},{"name":"95c3182e-e163-4900-9890-d7c13403b7dc.status_label","label":"1 - Import Application with Repo URL➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"ed8d4ae9-9299-4703-8951-363e2a6e623b"}},{"name":"95c3182e-e163-4900-9890-d7c13403b7dc.http_status","label":"1 - Import Application with Repo URL➛HTTP Status","reference_display":"HTTP Status","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"5083dc87-d1da-4962-863f-0b7b154cddc8"}},{"name":"95c3182e-e163-4900-9890-d7c13403b7dc.status_message","label":"1 - Import Application with Repo URL➛Status Message","reference_display":"Status Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"d55b9887-14f6-46e8-815b-28b9d8edb98f"}},{"name":"95c3182e-e163-4900-9890-d7c13403b7dc.status_detail","label":"1 - Import Application with Repo URL➛Status Detail","reference_display":"Status Detail","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"f2106f05-8f15-4214-8df9-32e02983aba7"}},{"name":"95c3182e-e163-4900-9890-d7c13403b7dc.progress_id","label":"1 - Import Application with Repo URL➛Progress Id","reference_display":"Progress Id","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"5de9ba0b-7710-4cf1-8c84-5c4068e048d6"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>ugtest</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 09:24:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d432fdcd87a615105e74da873cbb3556</sys_id>
+        <sys_name>ugtest</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ughelloworld" source="x_snc_ughelloworld">7465a50997a29510aa6f7b7e6253afd1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ughelloworld">7465a50997a29510aa6f7b7e6253afd1</sys_scope>
+        <sys_update_name>sys_hub_flow_d432fdcd87a615105e74da873cbb3556</sys_update_name>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d432fdcd87a615105e74da873cbb3556^sys_idNOT IN9432fdcd87a615105e74da873cbb3558"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d432fdcd87a615105e74da873cbb3556</id>
+        <name>ugtest</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 09:24:01</sys_created_on>
+        <sys_id>9432fdcd87a615105e74da873cbb3558</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-13 09:24:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9432fdcd87a615105e74da873cbb3558"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d432fdcd87a615105e74da873cbb3556^sys_idNOT IN348db101872a15105e74da873cbb354d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Import Application with Repo URL">b97accea87513010bec6068046cb0bb2</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="ugtest">d432fdcd87a615105e74da873cbb3556</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 10:13:29</sys_created_on>
+        <sys_id>348db101872a15105e74da873cbb354d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ughelloworld">7465a50997a29510aa6f7b7e6253afd1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-13 10:13:29</sys_updated_on>
+        <ui_id>95c3182e-e163-4900-9890-d7c13403b7dc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=348db101872a15105e74da873cbb354d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>348db101872a15105e74da873cbb354d</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 10:13:29</sys_created_on>
+        <sys_id>388db101872a15105e74da873cbb3552</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-13 10:13:29</sys_updated_on>
+        <value>163be94587a615105e74da873cbb35af</value>
+        <variable display_value="Credential Sys ID">c67accea87513010bec6068046cb0bc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>348db101872a15105e74da873cbb354d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 10:13:29</sys_created_on>
+        <sys_id>748db101872a15105e74da873cbb3551</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-13 10:13:29</sys_updated_on>
+        <value>https://github.com/umangnitrr/hello-world.git</value>
+        <variable display_value="Repo URL">ca7accea87513010bec6068046cb0bb6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>348db101872a15105e74da873cbb354d</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 10:13:29</sys_created_on>
+        <sys_id>748db101872a15105e74da873cbb3552</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-13 10:13:29</sys_updated_on>
+        <value>https://ugaes2demo.service-now.com</value>
+        <variable display_value="Instance URL">c67accea87513010bec6068046cb0bd9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>348db101872a15105e74da873cbb354d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 10:13:29</sys_created_on>
+        <sys_id>b08db101872a15105e74da873cbb3552</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-13 10:13:29</sys_updated_on>
+        <value>main﻿</value>
+        <variable display_value="Branch Name">4e7accea87513010bec6068046cb0bbf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>348db101872a15105e74da873cbb354d</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 10:13:29</sys_created_on>
+        <sys_id>fc8db101872a15105e74da873cbb3551</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-13 10:13:29</sys_updated_on>
+        <value>6047b1c587e615105e74da873cbb35c1</value>
+        <variable display_value="Credential Alias">427accea87513010bec6068046cb0bdf</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_b97accea87513010bec6068046cb0bb2^id=348db101872a15105e74da873cbb354d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=348db101872a15105e74da873cbb354d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=348db101872a15105e74da873cbb354d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d432fdcd87a615105e74da873cbb3556"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d432fdcd87a615105e74da873cbb3556"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d432fdcd87a615105e74da873cbb3556"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d432fdcd87a615105e74da873cbb3556"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d432fdcd87a615105e74da873cbb3556"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d432fdcd87a615105e74da873cbb3556"/>
+</record_update>
