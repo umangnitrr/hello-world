@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_ughelloworld.user" name="x_snc_ughelloworld.user">f065a50997a29510aa6f7b7e6253afdb</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 08:28:05</sys_created_on>
+        <sys_id>b065a50997a29510aa6f7b7e6253afdc</sys_id>
+        <sys_name>f065a50997a29510aa6f7b7e6253afdb</sys_name>
+        <sys_package display_value="ughelloworld" source="x_snc_ughelloworld">7465a50997a29510aa6f7b7e6253afd1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ughelloworld">7465a50997a29510aa6f7b7e6253afd1</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b065a50997a29510aa6f7b7e6253afdc</sys_update_name>
+    </sys_embedded_help_role>
+</record_update>
